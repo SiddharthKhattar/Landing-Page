@@ -1,5 +1,5 @@
-.Apple-Logo{
-    display: flex;
-    width: 100px;
-    height:100px;
+.Apple-Logo{ /* The ideal ratio of width:height should be 1.75:2  , otherwise the logo will look weird and stretched out */  
+    display:flex;
+    width:21.875px;
+    height:25px;
 }
