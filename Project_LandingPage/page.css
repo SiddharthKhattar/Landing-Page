@@ -1,8 +1,27 @@
 .header{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    background-color: rgb(252, 247, 247);
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
 }
 
+.LeftSignUP_Button{
+    background-color: rgb(53, 53, 226);
+   /* height: 2em; */
+   padding: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
 .upper-header{
     display: flex;
     flex-direction: column;
