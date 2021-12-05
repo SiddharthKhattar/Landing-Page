@@ -1,7 +1,7 @@
 .header{
     display: flex;
     flex-direction: column;
-    background-color: rgb(252, 247, 247);
+   /* background-color: rgb(252, 247, 247); */
     margin: 0px;
     border: 0px;
     padding: 0px;
@@ -43,7 +43,7 @@
 .left-header{
     display: flex;
     flex-direction: column;
-    height:500px;
+    height:170px;
     width:400px;
 }
 a:link{
@@ -63,7 +63,15 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
-
+.lower-header{
+    display: flex;
+    flex-direction: row;
+}
+.right-header{
+    display: flex;
+    height: 180px;
+    width: 180px;
+}
 .header-logo{
     display: flex;
     flex-direction: row;
