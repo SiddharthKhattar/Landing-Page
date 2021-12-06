@@ -102,6 +102,51 @@
 .NameOfProduct{
     font-size: xx-large;
 }
+.MacPro{    /*Height:Width ratio is 4.5:5.5*/
+    height:240px;
+    width:280px;
+}
+
+.Mair{ /* Height:Width ratio is 5:9*/
+    height:250px;
+    width:450px;
+}
+
+.Mpro{  /* Height:Width ratio is 5:9*/
+    height:250px;
+    width:450px;
+}
+
+.M14pro{
+    height:285px;
+    width:485px;
+}
+
+.M16pro{
+    height:300px;
+    width:550px;
+}
+
+/*  .middle-part{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+} */
+
+.MiddleMandLowerMPart{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+.Apple-Logo:hover{
+     background: url("Logos_And_Images/Apple_logo_grey.svg.png") no-repeat;
+}
+
+.header-logo:hover{
+    background-image: url("Logos_And_Images/Apple_logo_grey.svg.png") no-repeat;
+}
 
 /*  <ul>
                     <li>    </li>
