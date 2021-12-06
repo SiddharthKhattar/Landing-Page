@@ -133,11 +133,14 @@
     flex-wrap: nowrap;
 } */
 
+.FirstPart{
+    padding-right: 50px;
+}
 .MiddleMandLowerMPart{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-
+    margin-right:30px;
 }
 
 .Apple-Logo:hover{
