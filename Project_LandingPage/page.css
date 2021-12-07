@@ -102,9 +102,15 @@
 .NameOfProduct{
     font-size: xx-large;
 }
+
+.macmini{ /* Height:Width ratio is 1.5:4*/
+    height:75px;
+    width:200px;
+}
+
 .MacPro{    /*Height:Width ratio is 4.5:5.5*/
-    height:240px;
-    width:280px;
+    height:276px;
+    width:300px;
 }
 
 .Mair{ /* Height:Width ratio is 5:9*/
@@ -133,7 +139,10 @@
     flex-wrap: nowrap;
 } */
 
-.FirstPart{
+.image1{
+    padding-bottom: 135px;
+}
+.part{
     padding-right: 50px;
 }
 .MiddleMandLowerMPart{
