@@ -160,6 +160,10 @@
     background-image: url("Logos_And_Images/Apple_logo_grey.svg.png") no-repeat;
 }
 
+li{
+    font-size: large;
+}
+
 /*  <ul>
                     <li>    </li>
                     <li>    </li>
@@ -170,3 +174,50 @@
                     <li>    </li>
                     <li>    </li>
                   </ul> */
+
+
+/*  <div class="middle-part">
+        <div class="UpperMiddlePart">
+
+        </div>
+        <div class="MiddleM&LowerMPart">
+            <div class="FirstPart">
+                <div class="ImagePart">
+
+                </div>
+                <div class="SubtextPart">
+
+                </div>
+            </div>
+            <div class="SecondPart">
+                <div class="ImagePart">
+
+                </div>
+                <div class="SubtextPart">
+                    
+                </div>
+            </div>
+            <div class="ThirdPart">
+                <div class="ImagePart">
+
+                </div>
+                <div class="SubtextPart">
+                    
+                </div>
+            </div>
+            <div class="FourthPart">
+                <div class="ImagePart">
+
+                </div>
+                <div class="SubtextPart">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+*/
+
+
+
+
+
