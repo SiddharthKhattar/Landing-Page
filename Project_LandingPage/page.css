@@ -31,6 +31,8 @@
     color: black;
     list-style-type:none ;
     padding-right: 20px;
+    font-size: larger;
+    
 }
 
 .ProductNames a:link {
@@ -99,8 +101,8 @@
 }
 .Apple-Logo{ /* The ideal ratio of width:height should be 1.75:2  , otherwise the logo will look weird and stretched in/out */  
     display:flex;
-    width:21.875px;
-    height:25px;
+    width:25.875px;
+    height:30.5px;
 }
 
 .NameOfProduct{
