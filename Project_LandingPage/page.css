@@ -119,7 +119,7 @@
 
 .Mair{ /* Height:Width ratio is 5:9*/
     height:250px;
-    width:450px;
+    width:450px; 
 }
 
 .Mpro{  /* Height:Width ratio is 5:9*/
@@ -164,7 +164,14 @@
     background-image: url("Logos_And_Images/Apple_logo_grey.svg.png") no-repeat;
 }
 
-
+.ipad9{ /* Ideal ratio is 3.35:3 */
+    height:368.5px;
+    width:330px;
+}
+.ipadmini6{ /* Ideal ratio is 3.35:3 */
+    height:294.8px;
+    width:264px;
+}
 
 
 
