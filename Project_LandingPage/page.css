@@ -15,6 +15,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
 }
+
 .header-links{
     display: flex;
     flex-direction: column;
@@ -76,7 +77,10 @@
 .lower-header{
     display: flex;
     flex-direction: row;
-   /* justify-content: space-evenly; */
+   justify-content: center;
+   border-style:solid;
+   border-radius: 10px;
+   border-color:black ;
 }
 .right-header{
     display: flex;
@@ -160,6 +164,63 @@
     background-image: url("Logos_And_Images/Apple_logo_grey.svg.png") no-repeat;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grey{
+    color:gray;
+}
+.silver{
+    color:silver;
+}
+.gold{
+    color:gold;
+}
+.blue{
+    color: blue;
+}
+.skyblue{
+    color:skyblue;
+}
+.red{
+    color:red;
+}
+.silver{
+    color:silver
+}
+.yellow{
+    color:rgba(211, 211, 35, 0.808);
+}
+.orange{
+    color:orange;
+}
+.pink{
+    color:pink;
+}
+.starlight{
+    color:rgb(246, 246, 220);
+}
+.purple{
+    color:purple;
+}
+.green{
+    color:green;
+}
 li{
     font-size: large;
 }
