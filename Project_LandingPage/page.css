@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: 'MoongladeDemoBold';
     src:url(Fonts/MoongladeDemoBold.ttf);
@@ -6,27 +8,43 @@
 }
 
 @font-face{
-    font-family:'SF-CompactDisplay-Regurlar';
+    font-family:'SF-CompactDisplay';
     src:url(Fonts/SFCompactDisplay-Regular.ttf);
     font-weight:normal;
     font-size: normal;
 }
 
 @font-face{
-    font-family:'SFProText-Regular';
+    font-family:'SFProText';
     src:url(Fonts/SFProText-Regular.ttf);
     font-weight:normal;
     font-size: normal;
 }
 
 @font-face{
-    font-family:'SFProText-Bold';
+    font-family:'SFProText';
     src:url(Fonts/SFProText-Bold.ttf);
-    font-weight: normal;
+    font-weight: bold;
     font-size: normal;
 }
 
+@font-face {
+    font-family:'SFProText' ;
+    src: url(Fonts/SFProText-Heavy.ttf);
+    font-weight: bolder;
+    font-size: normal;
+}
 
+@font-face {
+    font-family:'SFProText' ;
+    src: url(Fonts/SFProDisplay-Thin.ttf);
+    font-weight: lighter;
+    font-size: normal;
+}
+
+*{
+    font-family: 'SFProText';
+}
 .header{
     display: flex;
     flex-direction: column;
@@ -105,19 +123,40 @@
     justify-content: center;
     align-items: center;
 }
+
+/* BELOW is code for NothingQuiteLikeApple Div container */
+
 .lower-header{
     display: flex;
     flex-direction: row;
    justify-content: center;
-   border-style:solid;
+ /*  border-style:solid;
    border-radius: 10px;
-   border-color:black ;
+   border-color:black ; */
 }
 .right-header{
     display: flex;
     height: 180px;
     width: 180px;
 }
+
+.actualheader{
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    flex-shrink: 0; 
+    border-color: black;
+    border-style:solid;
+    border-radius: 10px;
+    padding-left: 15px;
+    width:735px;  
+    overflow:visible; 
+    margin-right:10px;
+    margin-left: 10px;
+}
+
+/* ENDS Here */
+
 .header-logo{
     display: flex;
     flex-direction: row;
@@ -218,25 +257,45 @@
 /* Below is code for MacDesktop */
 
 .MDfirsttab{
-    font-family: 'SFProText-Regular';
+    font-family: 'SFProText';
     color: white;
     display: flex;
     flex-direction: column;
-    padding:100px 150px 200px 250px;
+    padding: 100px 125px 150px 125px ; /* TOP RIGHT BOTTOM LEFT TRBL */
     background-image: url(MacDesktop/monterey.jpg);
     background-repeat: no-repeat;
     justify-self: center;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
     border-radius: 20px;
-    font-weight: bold;
+    font-weight: normal;
+}
+.RSG{
+    font-family: 'SFProText';
+    font-size: x-large;
+    font-weight: bolder;
+}
+.MDfirsttabtitle{
+    display: flex;
+    font-size: x-large;
+    padding-top: 0px;
+}
+.MDfirsttabsubtext{
+    display: flex;
 }
 
 .MDfirsttabtitle{
-    font-family: 'SFProText-Regular';
+    font-family: 'SFProText';
+    font-weight: lighter;
     font-size: x-large;
 }
 
 
-
+.macbookimage{ /* ratio of width:height is 1.7:1 */
+    height:400px;
+    width:680px;
+}
 
 
 
