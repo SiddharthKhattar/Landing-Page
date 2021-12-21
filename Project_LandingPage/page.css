@@ -1,3 +1,32 @@
+@font-face {
+    font-family: 'MoongladeDemoBold';
+    src:url(Fonts/MoongladeDemoBold.ttf);
+    font-weight: normal;
+    font-size: normal;
+}
+
+@font-face{
+    font-family:'SF-CompactDisplay-Regurlar';
+    src:url(Fonts/SFCompactDisplay-Regular.ttf);
+    font-weight:normal;
+    font-size: normal;
+}
+
+@font-face{
+    font-family:'SFProText-Regular';
+    src:url(Fonts/SFProText-Regular.ttf);
+    font-weight:normal;
+    font-size: normal;
+}
+
+@font-face{
+    font-family:'SFProText-Bold';
+    src:url(Fonts/SFProText-Bold.ttf);
+    font-weight: normal;
+    font-size: normal;
+}
+
+
 .header{
     display: flex;
     flex-direction: column;
@@ -186,6 +215,25 @@
     width:430px;
 }
 
+/* Below is code for MacDesktop */
+
+.MDfirsttab{
+    font-family: 'SFProText-Regular';
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding:100px 150px 200px 250px;
+    background-image: url(MacDesktop/monterey.jpg);
+    background-repeat: no-repeat;
+    justify-self: center;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.MDfirsttabtitle{
+    font-family: 'SFProText-Regular';
+    font-size: x-large;
+}
 
 
 
@@ -195,6 +243,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+/* Code for MacDesktop ends here */
 
 
 
