@@ -256,20 +256,51 @@
 
 /* Below is code for MacDesktop */
 
+.whymac{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    align-content: center;
+}
+
+.macbookimagecontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.titlesubtext{
+    display: flex;
+    width: 800px;
+    justify-content: center; 
+    justify-self: center;
+    align-self: center;
+    text-align: center;   
+}
+
+.title{
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+}
+
 .MDfirsttab{
     font-family: 'SFProText';
     color: white;
     display: flex;
     flex-direction: column;
-    padding: 100px 125px 150px 125px ; /* TOP RIGHT BOTTOM LEFT TRBL */
+    padding: 100px 125px 150px 125px ;  /* TOP RIGHT BOTTOM LEFT TRBL */
     background-image: url(MacDesktop/monterey.jpg);
-    background-repeat: no-repeat;
-    justify-self: center;
+   /* background-repeat: no-repeat; */
+  /*  justify-self: center;
     justify-content: center;
     align-self: center;
-    align-content: center;
+    align-content: center; */
+    text-align: center;
     border-radius: 20px;
     font-weight: normal;
+    margin: 20px;
+    width: 790px; 
 }
 .RSG{
     font-family: 'SFProText';
@@ -280,9 +311,12 @@
     display: flex;
     font-size: x-large;
     padding-top: 0px;
+    justify-content: center;
 }
 .MDfirsttabsubtext{
     display: flex;
+    width: 800px;
+    text-align: center;
 }
 
 .MDfirsttabtitle{
@@ -298,16 +332,15 @@
 }
 
 
+.MDsecondtab{
+    display: flex;
 
-
-
-
-
-
-
-
-
-
+    background-image: url(MacDesktop/hardpartlarge.jpg);
+    background-position-x: 50%;
+    width:733px;
+    height:569px;
+    border-radius: 20px;
+}
 
 
 
