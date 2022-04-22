@@ -1,0 +1,315 @@
+.header{
+    display: flex;
+    flex-direction: column;
+   /* background-color: rgb(252, 247, 247); */
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.link{
+    color: black;
+}
+.upper-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.header-links{
+    display: flex;
+    flex-direction: column;
+    
+}
+.Product-Lineup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+}
+.ProductNames{
+    color: black;
+    list-style-type:none ;
+    padding-right: 20px;
+}
+
+.ProductNames a:link {
+    text-decoration:none;
+}
+
+.ProductNames a:hover{
+    color: rgb(37, 155, 228);
+}
+.LeftSignUP_Button{
+    background-color: rgb(37, 37, 185);
+   padding: 8px;
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 10px;
+}
+
+.HeadingForLeftHeader{
+    font-size: xx-large;
+}
+
+.left-header{
+    display: flex;
+    flex-direction: column;
+    height:170px;
+    width:400px;
+}
+.LeftSignUP_Button a:link{
+    color: white;
+    text-decoration: none;
+}
+.LeftSignUP_Button a:visited{
+    color: white;
+    text-decoration: none;
+}
+.LeftSignUP_Button a:hover{
+    color:rgb(212, 209, 209);
+}
+.upper-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lower-header{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   border-style:solid;
+   border-radius: 10px;
+   border-color:black ;
+}
+.right-header{
+    display: flex;
+    height: 180px;
+    width: 180px;
+}
+.header-logo{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+.header-links{
+    display: flex;
+    flex-direction: column;
+}
+.Apple-Logo{ /* The ideal ratio of width:height should be 1.75:2  , otherwise the logo will look weird and stretched in/out */  
+    display:flex;
+    width:21.875px;
+    height:25px;
+}
+
+.NameOfProduct{
+    font-size: xx-large;
+}
+
+.macmini{ /* Height:Width ratio is 1.5:4*/
+    height:75px;
+    width:200px;
+}
+
+.MacPro{    /*Height:Width ratio is 4.5:5.5*/
+    height:276px;
+    width:300px;
+}
+
+.Mair{ /* Height:Width ratio is 5:9*/
+    height:250px;
+    width:450px;
+}
+
+.Mpro{  /* Height:Width ratio is 5:9*/
+    height:250px;
+    width:450px;
+}
+
+.M14pro{
+    height:285px;
+    width:485px;
+}
+
+.M16pro{
+    height:300px;
+    width:550px;
+}
+
+.ipad9{
+    height: 350px;
+    width: 300px;
+    padding-bottom:50px ;
+}
+
+.ipadm6{
+    height:300px;
+    width:250px;
+    padding-bottom: 60px;
+}
+
+
+.ipada4{
+    height: 360px;
+    width: 310px;
+    padding-bottom: 40px;
+}
+
+.ipadp3{
+    height: 400px;
+    width: 350px;
+}
+
+.image1{
+    padding-bottom: 135px;
+}
+.part{
+    padding-right: 50px;
+}
+.MiddleMandLowerMPart{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-right:30px;
+}
+
+.iPadPart{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-right:30px;
+
+}
+
+.FirstPart, .SecondPart , .ThirdPart{
+    padding-right: 25px;
+}
+
+
+.Apple-Logo:hover{
+     background: url("Logos_And_Images/Apple_logo_grey.svg.png") no-repeat;
+}
+
+.header-logo:hover{
+    background-image: url("Logos_And_Images/Apple_logo_grey.svg.png") no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grey{
+    color:gray;
+}
+.silver{
+    color:silver;
+}
+.gold{
+    color:gold;
+}
+.blue{
+    color: blue;
+}
+.skyblue{
+    color:skyblue;
+}
+.red{
+    color:red;
+}
+.silver{
+    color:silver
+}
+.yellow{
+    color:rgba(211, 211, 35, 0.808);
+}
+.orange{
+    color:orange;
+}
+.pink{
+    color:pink;
+}
+.starlight{
+    color:rgb(246, 246, 220);
+}
+.purple{
+    color:purple;
+}
+.green{
+    color:green;
+}
+li{
+    font-size: large;
+}
+
+/*  <ul>
+                    <li>    </li>
+                    <li>    </li>
+                    <li>    </li>
+                    <li>    </li>
+                    <li>    </li>
+                    <li>    </li>
+                    <li>    </li>
+                    <li>    </li>
+                  </ul> */
+
+
+/*  <div class="middle-part">
+        <div class="UpperMiddlePart">
+
+        </div>
+        <div class="MiddleM&LowerMPart">
+            <div class="FirstPart">
+                <div class="ImagePart">
+
+                </div>
+                <div class="SubtextPart">
+
+                </div>
+            </div>
+            <div class="SecondPart">
+                <div class="ImagePart">
+
+                </div>
+                <div class="SubtextPart">
+                    
+                </div>
+            </div>
+            <div class="ThirdPart">
+                <div class="ImagePart">
+
+                </div>
+                <div class="SubtextPart">
+                    
+                </div>
+            </div>
+            <div class="FourthPart">
+                <div class="ImagePart">
+
+                </div>
+                <div class="SubtextPart">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+*/
+
+
+
+
+
